@@ -12,3 +12,37 @@ creating conda enviornment
    conda create -p venv python ==3.7 -y
 
 '''
+To add file to git 
+'''
+git add
+'''
+or
+'''
+'''
+git add <file name>
+'''
+To ignore file or folder from git we can write name of file /folder in .git ignore file
+ 
+ To check the git status
+
+ '''
+ git status
+ '''
+ '''
+ to check all version
+'''
+ git log
+'''
+to create version /commit to all change by git 
+git commit -m "message that we want to write"
+
+git branch 
+ o/p- main
+
+git push origin main - by this commoand everthing goes on git hub
+
+heroku api--- ddaaade8-79c2-4d0d-994b-ee6a72a1e6b4
+
+heroku application name- ml-1app
+
+ 
