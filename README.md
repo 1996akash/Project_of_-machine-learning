@@ -45,4 +45,9 @@ heroku api--- ddaaade8-79c2-4d0d-994b-ee6a72a1e6b4
 
 heroku application name- ml-1app
 
+'''
+python setup.py
+
+'''
+
  
