@@ -1,12 +1,12 @@
-from distutils.version import Version
-from setuptools import setup
+###from distutils.version import Version
+from setuptools import setup, find_packages
 from typing import List
 
 
 #Declaring variable for a setup function
 
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.1"
+VERSION="0.0.2"
 AUTHOR= "Akash"
 DISCRIPTION= "First project of machine learning"
 PACKAGES=["housing"]
@@ -23,19 +23,17 @@ def get_requirements_list()->List[str]:
     '''
 
     with open (REQUIREMENTS_FILE_NAME) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .")
 
 
-setup(
+setup(  
 name =PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DISCRIPTION,
-packages= PACKAGES,
-install_reuires=get_requirements_list()
+packages= find_packages(),
+install_requires=get_requirements_list()
 
 
 )
 
-if __name__=="_main__":
-    print(get_requirements_list())
