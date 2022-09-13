@@ -50,4 +50,9 @@ python setup.py
 
 '''
 
- 
+'''
+install ipykernal
+pip install ipykernal
+
+'''
+  
