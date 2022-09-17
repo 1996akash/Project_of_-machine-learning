@@ -41,3 +41,6 @@ model_evaluation_config:
 
 model_pusher_config:
   model_export_dir: saved_models
+
+  #ye jo blue color me variable h hum kuch bhi likh sakte  h buss hame yeh dhyan rakhna h ki wah variabel read able ho
+  # hum model_export_dir ke place sharaukhan likh de lakin wah read abel nahi mtlab ajjaeb h  
